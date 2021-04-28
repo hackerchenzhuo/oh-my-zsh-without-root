@@ -5,7 +5,7 @@
 
 
 ## 安装好并解压ncurses和zsh后
-### 下述已经存在 zsh.sh 中
+### 下述已经存在 zsh.sh 中，直接bash zsh.sh即可
 ```
 cd ncurses
 export CXXFLAGS=" -fPIC"
@@ -31,7 +31,9 @@ echo '[ -f $HOME/bin/zsh ] && exec $HOME/bin/zsh -l' >> ~/.profile
 
 ### 以下部分需要单独运行
 ```
-exit
+exit #退出
+#....connect...
+
 touch ~/.zshrc
 wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh
 zsh
