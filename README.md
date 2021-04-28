@@ -37,6 +37,7 @@ wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - 
 zsh
 ```
 
+
 ## 然后数据拷贝进去：
 ### chenzhuo/.oh-my-zsh/themes
 myagnoster.zsh-theme 
@@ -49,7 +50,11 @@ myagnoster.zsh-theme
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
+### PS： 如果无法联网可以直接上传
+到这个文件夹：/home/chenzhuo/.oh-my-zsh/custom/plugins
+
 ```
 git clone git://github.com/joelthelion/autojump.git
 ./install.py
 ```
+autojump 注意：如果下载不了需要去.zshrc里面删除包含autojump的两行
