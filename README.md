@@ -1,4 +1,4 @@
-# oh-my-zsh-forcz
+# oh-my-zsh-without_root
 
 ## 第一步：
 非root环境下安装zsh：https://blog.csdn.net/TinyJian/article/details/84034812
