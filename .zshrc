@@ -142,11 +142,11 @@ alias la='ls -A'
 alias l='ls -CF'
 alias gs='gpustat'
 
-alias tl="tmux -L chenzhuo ls"
-alias tkill="SHELL=/bin/zsh tmux -L chenzhuo kill-session -t"
-alias ta="SHELL=/bin/zsh tmux -L chenzhuo -f ~/.tmux.conf attach -t"
-alias tn="SHELL=/bin/zsh tmux -L chenzhuo -f ~/.tmux.conf new-session -A -s"
-alias tnew='tmux -f ~/.tmux.conf new-session \; split-window -h \; split-window -v \; attach'
+alias tl="tmux ls"
+alias tkill="tmux kill-session -t"
+alias ta="tmux attach -t"
+alias tn="tmux new-session -A -s"
+alias tnew='tmux new-session \; split-window -h \; split-window -v \; attach -t'
 
 prompt_context() {}
 
