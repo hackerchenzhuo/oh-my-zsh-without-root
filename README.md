@@ -5,6 +5,7 @@
 
 
 ## 安装好并解压ncurses和zsh后
+### 下述已经存在 zsh.sh 中
 ```
 cd ncurses
 export CXXFLAGS=" -fPIC"
@@ -28,6 +29,7 @@ echo 'export PATH="$HOME/bin:$HOME/.local/bin:$PATH"' >> ~/.profile
 echo '[ -f $HOME/bin/zsh ] && exec $HOME/bin/zsh -l' >> ~/.profile
 ```
 
+### 以下部分需要单独运行
 ```
 exit
 touch ~/.zshrc
