@@ -1,7 +1,10 @@
 # oh-my-zsh-forcz
 
+## 第一步：
 非root环境下安装zsh：https://blog.csdn.net/TinyJian/article/details/84034812
 
+
+## 安装好并ncurses和zsh后
 
  - cd ncurses
  - export CXXFLAGS=" -fPIC"
@@ -32,5 +35,13 @@
 ### myagnoster.zsh-theme 
 chenzhuo/.oh-my-zsh/themes
 
-### chenzhuo/.oh-my-zsh/plugins
-autojump
+----
+### chenzhuo/.oh-my-zsh/custom/plugins
+放到上面这个目录或者：
+
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+
+
+
