@@ -144,9 +144,7 @@ alias gs='gpustat'
 
 alias tl="tmux ls"
 alias tkill="tmux kill-session -t"
-alias ta="tmux attach -t"
 alias tn="tmux new-session -A -s"
-alias tnew='tmux new-session \; split-window -h \; split-window -v \; attach -t'
 
 prompt_context() {}
 
