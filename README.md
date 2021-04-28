@@ -1,5 +1,8 @@
 # oh-my-zsh-forcz
 
+非root环境下安装zsh：https://blog.csdn.net/TinyJian/article/details/84034812
+
+
  - cd ncurses
  - export CXXFLAGS=" -fPIC"
  - export CFLAGS=" -fPIC"
@@ -26,3 +29,8 @@
  - wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh
  - zsh
 
+### myagnoster.zsh-theme 
+chenzhuo/.oh-my-zsh/themes
+
+### chenzhuo/.oh-my-zsh/plugins
+autojump
