@@ -148,6 +148,6 @@ alias tn="tmux new-session -A -s"
 
 prompt_context() {}
 
-[[ -s ~/.autojump/etc/profile.d/autojump.sh ]] && . ~/.autojump/etc/profile.d/autojump.sh
+[[ -s /home/chenzhuo/.autojump/etc/profile.d/autojump.sh ]] && source /home/chenzhuo/.autojump/etc/profile.d/autojump.sh
 
 clear
