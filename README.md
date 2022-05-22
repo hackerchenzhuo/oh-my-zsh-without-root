@@ -52,7 +52,7 @@ myagnoster.zsh-theme
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
-### PS： 如果无法联网可以直接上传
+### PS： 如果无法联网可以直接上传(github项目解压上传之后直接放下面这个目录)
 到这个文件夹：/home/chenzhuo/.oh-my-zsh/custom/plugins
 
 ```
