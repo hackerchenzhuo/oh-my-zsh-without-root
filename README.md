@@ -60,3 +60,9 @@ git clone git://github.com/joelthelion/autojump.git
 ./install.py
 ```
 autojump 注意：如果下载不了需要去.zshrc里面删除包含autojump的两行
+
+# 离线环境迁移
+https://zhuanlan.zhihu.com/p/540615230
+
+没有虚拟环境的，可以把当前base环境先拷贝一份副本然后再打包
+
