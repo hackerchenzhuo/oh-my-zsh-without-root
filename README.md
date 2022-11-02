@@ -6,8 +6,9 @@
 
 ## 安装好并解压ncurses和zsh后
 
-tar -zxvf ncurses.tar.gz
-tar -xvf zsh.tar
+- tar -zxvf ncurses.tar.gz
+
+- tar -xvf zsh.tar
 
 ### 下述已经存在 zsh.sh 中，直接bash zsh.sh即可
 ```
