@@ -80,3 +80,5 @@ https://zhuanlan.zhihu.com/p/540615230
 
 没有虚拟环境的，可以把当前base环境先拷贝一份副本然后再打包
 
+# 无网络环境安装第三方库
+https://blog.csdn.net/Cameron_Rin/article/details/120790606
