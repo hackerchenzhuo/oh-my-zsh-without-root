@@ -82,3 +82,22 @@ https://zhuanlan.zhihu.com/p/540615230
 
 # 无网络环境安装第三方库
 https://blog.csdn.net/Cameron_Rin/article/details/120790606
+
+# 非root场景安装htop
+```
+1、上官网http://hisham.hm/htop/releases/下载最新的包
+2、解压缩：tar -zxvf htop-2.2.0.tar.gz;
+3、进入目标文件夹： cd htop-2.2.0
+4、./configure --prefix=/home/chenzhuo/htop
+5、make && make install
+```
+此时，在/home/user/htop/bin目录下，会生成可执行文件htop, 以下命令加在最后
+
+```
+cd /home/user
+vim .bashrc
+export  PATH=/home/chenzhuo/htop/bin:$PATH
+source .bashrc
+```
+参考：
+- https://blog.csdn.net/Xminyang/article/details/109344669
