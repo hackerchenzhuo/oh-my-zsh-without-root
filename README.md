@@ -82,6 +82,16 @@ https://zhuanlan.zhihu.com/p/540615230
 
 # 无网络环境安装第三方库
 https://blog.csdn.net/Cameron_Rin/article/details/120790606
+```
+pip download --no-deps -r depency.txt -d "/home/chenzhuo/pkage" -i https://pypi.tuna.tsinghua.edu.cn/simple/
+pip install --no-index --find-links=file:/offline_package_dir tensorboard
+或者
+pip install --no-index --find-links=file:/offline_package_dir -r dependency.txt
+```
+其中：
+- ```--no-deps```指不安装依赖
+- ```depency.txt```指需要下载的包
+- ```tensorboard``` 是一个例子，也可以是存在于```dependency.txt```中
 
 # 非root场景安装htop
 ```
