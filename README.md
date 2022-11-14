@@ -86,7 +86,7 @@ https://blog.csdn.net/Cameron_Rin/article/details/120790606
 pip download --no-deps -r depency.txt -d "/home/chenzhuo/pkage" -i https://pypi.tuna.tsinghua.edu.cn/simple/
 pip install --no-index --find-links=file:/offline_package_dir tensorboard
 或者
-pip install --no-index --find-links=file:/offline_package_dir -r dependency.txt
+pip install --no-index --find-links=file:/offline_package_dir -r depency.txt
 ```
 其中：
 - ```--no-deps```指不安装依赖
