@@ -82,6 +82,8 @@ https://zhuanlan.zhihu.com/p/540615230
 
 # 无网络环境安装第三方库
 https://blog.csdn.net/Cameron_Rin/article/details/120790606
+https://blog.csdn.net/luoluonuoyasuolong/article/details/123648032
+https://blog.csdn.net/vincent_duan/article/details/120128108
 ```
 先
 pip download -r depency.txt -d "/home/chenzhuo/pkage" -i https://pypi.tuna.tsinghua.edu.cn/simple/
