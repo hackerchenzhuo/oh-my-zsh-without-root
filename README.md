@@ -121,4 +121,4 @@ source .bashrc
 参考：
 - https://blog.csdn.net/Xminyang/article/details/109344669
 
-[URL=https://info.flagcounter.com/JO7r][IMG]https://s11.flagcounter.com/map/JO7r/size_l/txt_000000/border_CCCCCC/pageviews_0/viewers_0/flags_0/[/IMG][/URL]
+![[Model_architecture](https://info.flagcounter.com/JO7r)]([https://github.com/zjukg/DUET/blob/main/figure/duet.png](https://s11.flagcounter.com/map/JO7r/size_l/txt_000000/border_CCCCCC/pageviews_0/viewers_0/flags_0))
